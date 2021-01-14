@@ -3,6 +3,6 @@ version: "2"
 services:
   gauntlt:
     build: .
-    image: "citizensadvice/gauntlt"
+    image: "public.ecr.aws/citizensadvice/gauntlt"
     volumes:
       - ./:/gauntlt
